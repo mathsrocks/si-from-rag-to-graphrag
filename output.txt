@@ -1,0 +1,109 @@
+2024-12-08 18:18:56,421 - INFO - Created relationship: {'start': 'super data science', 'end': 'serg', 'type': 'TEAM_MEMBER'}
+2024-12-08 18:18:56,429 - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Statement.CartesianProduct} {category: PERFORMANCE} {title: This query builds a cartesian product between disconnected patterns.} {description: If a part of a query contains multiple disconnected patterns, this will build a cartesian product between all those parts. This may produce a large amount of data and slow down query processing. While occasionally intended, it may often be possible to reformulate the query that avoids the use of this cross product, perhaps by adding a relationship between the different parts or by using OPTIONAL MATCH (identifier is: (b))} {position: line: 2, column: 33, offset: 33} for query: '\n                                MATCH (a:Entity {name: $start}), (b:Entity {name: $end})  \n                                MERGE (a)-[r:RELATED {type: $type}]->(b)\n                                RETURN a.name, b.name, r.type\n                                '
+2024-12-08 18:18:56,432 - INFO - Created relationship: {'start': 'super data science', 'end': 'sylvia', 'type': 'TEAM_MEMBER'}
+2024-12-08 18:18:56,441 - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Statement.CartesianProduct} {category: PERFORMANCE} {title: This query builds a cartesian product between disconnected patterns.} {description: If a part of a query contains multiple disconnected patterns, this will build a cartesian product between all those parts. This may produce a large amount of data and slow down query processing. While occasionally intended, it may often be possible to reformulate the query that avoids the use of this cross product, perhaps by adding a relationship between the different parts or by using OPTIONAL MATCH (identifier is: (b))} {position: line: 2, column: 33, offset: 33} for query: '\n                                MATCH (a:Entity {name: $start}), (b:Entity {name: $end})  \n                                MERGE (a)-[r:RELATED {type: $type}]->(b)\n                                RETURN a.name, b.name, r.type\n                                '
+2024-12-08 18:18:56,444 - INFO - Created relationship: {'start': 'super data science', 'end': 'zara', 'type': 'TEAM_MEMBER'}
+2024-12-08 18:18:56,453 - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Statement.CartesianProduct} {category: PERFORMANCE} {title: This query builds a cartesian product between disconnected patterns.} {description: If a part of a query contains multiple disconnected patterns, this will build a cartesian product between all those parts. This may produce a large amount of data and slow down query processing. While occasionally intended, it may often be possible to reformulate the query that avoids the use of this cross product, perhaps by adding a relationship between the different parts or by using OPTIONAL MATCH (identifier is: (b))} {position: line: 2, column: 33, offset: 33} for query: '\n                                MATCH (a:Entity {name: $start}), (b:Entity {name: $end})  \n                                MERGE (a)-[r:RELATED {type: $type}]->(b)\n                                RETURN a.name, b.name, r.type\n                                '
+2024-12-08 18:18:56,457 - INFO - Created relationship: {'start': 'super data science', 'end': 'kirill', 'type': 'TEAM_MEMBER'}
+2024-12-08 18:18:56,465 - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Statement.CartesianProduct} {category: PERFORMANCE} {title: This query builds a cartesian product between disconnected patterns.} {description: If a part of a query contains multiple disconnected patterns, this will build a cartesian product between all those parts. This may produce a large amount of data and slow down query processing. While occasionally intended, it may often be possible to reformulate the query that avoids the use of this cross product, perhaps by adding a relationship between the different parts or by using OPTIONAL MATCH (identifier is: (b))} {position: line: 2, column: 33, offset: 33} for query: '\n                                MATCH (a:Entity {name: $start}), (b:Entity {name: $end})  \n                                MERGE (a)-[r:RELATED {type: $type}]->(b)\n                                RETURN a.name, b.name, r.type\n                                '
+2024-12-08 18:18:56,469 - INFO - Created relationship: {'start': 'jonkrohn.com', 'end': 'super data science', 'type': 'SPONSOR'}
+2024-12-08 18:18:56,478 - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Statement.CartesianProduct} {category: PERFORMANCE} {title: This query builds a cartesian product between disconnected patterns.} {description: If a part of a query contains multiple disconnected patterns, this will build a cartesian product between all those parts. This may produce a large amount of data and slow down query processing. While occasionally intended, it may often be possible to reformulate the query that avoids the use of this cross product, perhaps by adding a relationship between the different parts or by using OPTIONAL MATCH (identifier is: (b))} {position: line: 2, column: 33, offset: 33} for query: '\n                                MATCH (a:Entity {name: $start}), (b:Entity {name: $end})  \n                                MERGE (a)-[r:RELATED {type: $type}]->(b)\n                                RETURN a.name, b.name, r.type\n                                '
+2024-12-08 18:18:56,622 - INFO - Graph creation completed. Nodes: 1357, Relationships: 2443
+2024-12-08 18:18:57,323 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:18:58,398 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:18:58,828 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:02,956 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:04,403 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:04,993 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:07,210 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:07,463 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:11,587 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:14,224 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:14,763 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:16,181 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:16,505 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:20,817 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:21,837 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:22,501 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:23,898 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:24,202 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:29,151 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:30,852 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:31,482 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:33,378 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:34,575 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:38,851 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:40,832 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:41,467 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:42,567 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:42,883 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:47,014 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:48,287 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:48,290 - INFO - Vanilla RAG Latency: 2.15s, GraphRAG Latency: 6.46s
+2024-12-08 18:19:48,911 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:50,221 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:50,559 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:54,597 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:56,007 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:56,010 - INFO - Query: Who was the guest in Episode 835? What was his/her role? What were the main points discussed?
+2024-12-08 18:19:56,010 - INFO - Vanilla RAG Response:  The guest in Episode 835 was Kirill Eremenko, the founder of the SuperDataScience podcast. The main points discussed were the success of a recent episode on large language models and the positive feedback it received from listeners.
+2024-12-08 18:19:56,011 - INFO - GraphRAG Response: 
+The guest in Episode 835 was Bryan McCann, the co-founder and CEO of You.com. The main points discussed were AI systems as productivity engines and how they can be used to improve efficiency and decision-making in various industries.
+2024-12-08 18:19:56,602 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:19:58,824 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:19:59,108 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:03,065 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:06,124 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:06,127 - INFO - Query: What are the key takeaways regarding the Transformers architecture across both Episode 747 and 759?
+2024-12-08 18:20:06,127 - INFO - Vanilla RAG Response: 
+1. The Transformers architecture was introduced in Episode 747 and will be further discussed and built upon in Episode 759.
+2. The architecture was first described in a research paper titled "Attention Is All You Need" published in 2017 by a team at Google.
+3. The paper has over 100,000 citations, indicating its significance in the field of large language models.
+4. The architecture is based on the concept of attention, which allows the model to focus on specific parts of the input sequence.
+5. The architecture has been widely adopted and has shown impressive results in natural language processing tasks.
+6. The full recap of the architecture can be found in Episode 747, while Episode 759 will focus on building upon that knowledge.
+2024-12-08 18:20:06,127 - INFO - GraphRAG Response: 
+1. The Transformers architecture is a type of neural network architecture that is used for natural language processing tasks.
+2. It consists of an encoder and a decoder, which work together to process input and generate output.
+3. The encoder is responsible for encoding the input into a context-rich vector representation, while the decoder uses this representation to generate output.
+4. Transformers use self-attention mechanisms, which allow them to take advantage of the context of the input.
+5. They also use positional encoding to incorporate the position of words in the input.
+6. Transformers have been adapted for use in various models, such as GPT and BERT.
+7. They have been shown to outperform previous models, such as recurrent neural networks, in natural language processing tasks.
+8. Training a transformer requires a large amount of data and computing power, such as GPUs.
+9. Transformers have been used in business applications, such as chatbots.
+10. The architecture has been continuously improved upon, with newer versions such as GPT-2 and GPT-3.
+2024-12-08 18:20:06,726 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:08,271 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:08,636 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:14,012 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:15,167 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:15,170 - INFO - Query: Was there any mention of quantum computing in all those episodes involed? If yes, which one(s), mentioned by whom and under what context?
+2024-12-08 18:20:15,170 - INFO - Vanilla RAG Response: 
+Yes, there was mention of quantum computing in episode 835 with Bryan McCann. He mentioned it in the context of how AI may be able to make predictions or assimilate ideas across all knowledge in a way that humans never could.
+2024-12-08 18:20:15,170 - INFO - GraphRAG Response:  No, there was no mention of quantum computing in any of the episodes mentioned in the context.
+2024-12-08 18:20:15,761 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:17,004 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:17,296 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:20,972 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:23,174 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:23,176 - INFO - Query: What are the primary advantages and limitations of the Transformers architecture?
+2024-12-08 18:20:23,176 - INFO - Vanilla RAG Response:  The primary advantages of the Transformers architecture are its use of matrix operations for speed and parallelization, its ability to handle input of varying sizes, and its attention mechanism for capturing long-term dependencies. Its limitations include the need for large amounts of training data and the potential for overfitting.
+2024-12-08 18:20:23,176 - INFO - GraphRAG Response:  The primary advantages of the Transformers architecture are its ability to process long sequences of text, its parallelization capabilities, and its ability to take advantage of attention mechanisms. However, it also has limitations such as requiring large amounts of data and GPUs for training, and it may not perform as well as recurrent neural networks on certain tasks. Additionally, the full encoder-decoder architecture may have better performance and capabilities compared to the decoder-only architecture used in models like GPT, but it may not be as efficient as the encoder-only architecture used in BERT.
+2024-12-08 18:20:23,777 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:25,849 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:26,135 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:29,789 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:31,454 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:31,456 - INFO - Query: What is You.com about and what are the business problems it addresses? How does it address them? How deep is You.com's moat?
+2024-12-08 18:20:31,457 - INFO - Vanilla RAG Response:  You.com is a search engine that uses a "do engine" approach, connecting users to various large language models. It offers a free version with limited usage and a premium version with access to more advanced models and features. It addresses the problem of having to search for and access different language models from various sources, providing a convenient and centralized platform for users to try out and compare different models. The "model agnosticism" of You.com is a key selling point, as it allows users to access the latest and greatest models from various companies and open source projects. This creates a strong competitive advantage for You.com, making its moat deep.
+2024-12-08 18:20:31,457 - INFO - GraphRAG Response:  You.com is a company that focuses on providing advanced question answering and AI agent technology for business applications. It distinguishes itself from competitors like Google and Perplexity by not focusing on consumer search engine queries, but rather on deeper, more complex automated workflows that can increase productivity and bottom line for companies. Its functionality is getting further away from quick knowledge-based answers and more towards automating tasks and processes for businesses. You.com's moat is deep as it is not focused on beating Google or gaining market share, but rather on customer success and providing value to companies.
+2024-12-08 18:20:32,039 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:33,040 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:33,345 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:37,044 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-08 18:20:40,694 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-12-08 18:20:40,696 - INFO - Query: Who are the host(s) of SDS Podcast?
+2024-12-08 18:20:40,696 - INFO - Vanilla RAG Response:  Natalie, Serg, Sylvia, Zara, and Kirill.
+2024-12-08 18:20:40,697 - INFO - GraphRAG Response:  Kirill Eremenko and Jon Krohn.
+(venv-py312) hydra@ThinkPad-T15g-Gen1:~/moonshot/neo4j/genai/graphrag$
