@@ -1,2 +1,2 @@
 # si-from-rag-to-graphrag
-Super Individual: From RAG to GraphRAG
+Super Individual Series: From RAG to Knowledge Graph (GraphRAG)
